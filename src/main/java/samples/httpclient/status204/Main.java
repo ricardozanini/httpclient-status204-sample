@@ -16,7 +16,7 @@ public final class Main {
     private static final String LOCALHOST = "http://localhost";
 
     public static void main(String[] args) throws Exception {
-        NastyServer server = new JettyNastyServer();
+        NastyServer server = new TomcatNastyServer();
         server.start();
         try (CloseableHttpClient httpClient = HttpClients.createDefault()) {
             final HttpGet httpGetOK = new HttpGet(String.format("%s:%s%s", LOCALHOST, NastyServer.PORT, NastyServer.OK_ENDPOINT));
