@@ -8,8 +8,8 @@ For this lab, I implemented three different servers to observe their behavior wi
 
 The motivation behind this lab was to observe the response parse by HttpCommons in such scenarios. The problem is, neither servers return a response body when setting a 204 http status:
 
-- [`HttpCommonsNastyServer`](blob/master/src/main/java/samples/httpclient/status204/HttpCommonsNastyServer.java)
-- [`JetttyNastyServer`](blob/master/src/main/java/samples/httpclient/status204/JetttyNastyServer.java)
+- [`HttpCommonsNastyServer`](src/main/java/samples/httpclient/status204/HttpCommonsNastyServer.java)
+- [`JetttyNastyServer`](src/main/java/samples/httpclient/status204/JetttyNastyServer.java)
 - [`TomcatNastyServer`](blob/master/src/main/java/samples/httpclient/status204/TomcatNastyServer.java)
 
 Still looking for a server which breaks the RFC.
