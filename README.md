@@ -10,6 +10,6 @@ The motivation behind this lab was to observe the response parse by HttpCommons 
 
 - [`HttpCommonsNastyServer`](src/main/java/samples/httpclient/status204/HttpCommonsNastyServer.java)
 - [`JetttyNastyServer`](src/main/java/samples/httpclient/status204/JetttyNastyServer.java)
-- [`TomcatNastyServer`](blob/master/src/main/java/samples/httpclient/status204/TomcatNastyServer.java)
+- [`TomcatNastyServer`](src/main/java/samples/httpclient/status204/TomcatNastyServer.java)
 
 Still looking for a server which breaks the RFC.
