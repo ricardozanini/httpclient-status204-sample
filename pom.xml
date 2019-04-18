@@ -11,8 +11,8 @@
 		<httpclient.version>4.5.5</httpclient.version>
 		<logback.version>1.2.3</logback.version>
 		<slf4j.version>1.7.25</slf4j.version>
-		<jetty.version>9.4.11.v20180605</jetty.version>
-		<tomcat.version>8.5.31</tomcat.version>
+		<jetty.version>9.4.12.v20180830</jetty.version>
+		<tomcat.version>8.5.40</tomcat.version>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
